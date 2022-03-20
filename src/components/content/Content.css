@@ -1,0 +1,9 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: auto;
+
+    /*temporary*/
+    margin-bottom: 200rem;
+}
