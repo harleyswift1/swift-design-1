@@ -3,6 +3,10 @@ body, h1, h2, p, span {
     padding: 0;
 }
 
+:root {
+    --primary-color:  #3f6a4c;
+}
+
 * {
     font-family: "Roboto Thin", sans-serif;
     box-sizing: border-box;
