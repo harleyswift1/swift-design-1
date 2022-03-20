@@ -10,11 +10,14 @@
     margin-top: 3rem;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    row-gap: 3rem;
+    justify-content: space-between;
     flex-wrap: wrap;
 
-    width: 100%;
+    width: 60%;
     height: 60%;
+    transition: 100ms ease-in-out;
+
 }
 
 .section-1-selected-content {
@@ -23,14 +26,39 @@
     align-items: center;
     margin: 4rem 0 4rem 0;
     width: 50%;
+
 }
 
 .section-1-selected-content p {
     text-align: center;
 }
 
+.section-1-selected-content h1 {
+    color: var(--primary-color)
+}
+
 .selected-icon {
     width: 32px;
     height: 32px;
-    background-color: var(--primary-color);
+}
+
+
+@media all and (max-width: 1700px) {
+    .header-content {
+        width: 80%;
+    }
+
+    .hero-items {
+        width: 80%;
+    }
+
+    .section-1-cards-container {
+        width: 80%;
+    }
+}
+
+@media all and (max-width: 1300px) {
+    .section-1-cards-container {
+        width: 50%;
+    }
 }

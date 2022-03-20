@@ -8,16 +8,17 @@
 }
 
 .hero img {
-    width: 35%;
+    width: 40%;
     height: auto;
 }
 
 .hero-items {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
-    width: 70%;
+    width: 60%;
+    transition: 100ms ease-in-out;
 }
 
 .hero-titles {

@@ -4,13 +4,11 @@
     background-color: #ffffff;
     box-shadow: 0 3px 5px lightgray;
     cursor: pointer;
-    margin: 2rem;
     transition: 300ms ease-in-out;
-    border-left: 8px solid var(--primary-color);
 }
 
 .card:hover {
-    /*transform: translateY(-5%);*/
+    transform: translateY(-5%);
 }
 
 .card-content {
@@ -29,13 +27,14 @@
     margin-top: 1rem;
 }
 
-.card-content img {
+.icon-img {
     height: 28px;
     width: auto;
 }
 
 .card-content h1 {
     font-size: 0.9rem;
+    color: var(--primary-color)
 }
 
 .card-content-description {
@@ -51,10 +50,16 @@
 .card-content-learn-more {
     display: flex;
     flex-direction: row;
+    column-gap: 0.2rem;
     justify-content: center;
     align-items: center;
 }
 
 .card-content span {
     font-size: 0.9rem;
+}
+
+.right-arrow {
+    width: 14px;
+    height: auto;
 }
