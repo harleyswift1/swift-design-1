@@ -1,15 +1,24 @@
-body, h1, h2, p, span {
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
+body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+
+
+}
+
+.h1, h2, p, span {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
 }
 
 :root {
-    --primary-color:  #3f6a4c;
+    --primary-color: #3f6a4c;
 }
 
 * {
-    font-family: "Roboto Thin", sans-serif;
+    font-family: 'Nunito', sans-serif;
     box-sizing: border-box;
 }
 
@@ -22,7 +31,6 @@ button:hover {
     filter: brightness(90%);
     transition: 100ms ease-in-out;
 }
-
 
 
 /*animations*/

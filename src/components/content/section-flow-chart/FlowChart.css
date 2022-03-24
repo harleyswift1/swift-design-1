@@ -1,0 +1,54 @@
+.section-flow-chart {
+    display: flex;
+    flex-direction: column;
+    row-gap: 3rem;
+    justify-content: center;
+    align-items: center;
+
+
+    padding: 5rem 0 5rem 0;
+    background-color: white;
+}
+
+.section-flow-chart h1 {
+    color: var(--primary-color);
+    font-size: 2rem;
+    text-align: center;
+}
+
+.flow-chart-content {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 3rem;
+}
+
+@media all and (max-width: 1300px) {
+    .flow-chart-content {
+        width: 50%;
+    }
+}
+
+@media all and (max-width: 900px) {
+    .flow-chart-content {
+        width: 80%;
+    }
+}
+
+@media all and (max-width: 500px) {
+    .flow-chart-content {
+        width: 90%;
+    }
+
+    .section-flow-chart h1 {
+        font-size: 1.5rem;
+    }
+
+    .flow-chart-item-content {
+        grid-template-columns: 1fr 1.5fr 0.5fr;
+        grid-template-rows: 1.3fr 2fr 0.2fr;
+        grid-template-areas:
+    "title title"
+    "content content";
+    }
+}
