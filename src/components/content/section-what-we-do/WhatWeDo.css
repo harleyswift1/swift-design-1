@@ -1,0 +1,56 @@
+.section-what-we-do {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f6f6f6;
+}
+
+.section-what-we-do-cards-container {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: row;
+    row-gap: 3rem;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    transition: 100ms ease-in-out;
+
+}
+
+.section-what-we-do-selected-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 4rem 0 4rem 0;
+    width: 50%;
+
+}
+
+.section-what-we-do-selected-content p {
+    text-align: center;
+}
+
+.section-what-we-do-selected-content h1 {
+    color: var(--primary-color);
+    text-align: center;
+}
+
+.selected-icon {
+    width: 32px;
+    height: 32px;
+}
+
+
+@media all and (max-width: 1700px) {
+    .header-collapsed-content {
+        width: 80%;
+    }
+
+}
+
+@media all and (max-width: 1300px) {
+    .section-what-we-do-cards-container {
+        width: 80%;
+    }
+}
