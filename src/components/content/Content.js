@@ -1,16 +1,22 @@
 import './Content.css'
-import Header from "./header/Header";
+import HeaderCollapsed from "./header/header-collapsed/HeaderCollapsed";
 import Hero from "./hero/Hero";
-import Section from "./section-what-we-do/Section";
+import WhatWeDo from "./section-what-we-do/WhatWeDo";
+import FlowChart from "./section-flow-chart/FlowChart";
+import HeaderExpanded from "./header/header-expanded/HeaderExpanded";
 
 
 // all containers
 export default function Content() {
     return (
-        <div className={"content"}>
-            <Header/>
-            <Hero />
-            <Section id={"what-we-offer"} />
+        <div className={"page"}>
+            <div className={"content"}>
+                <HeaderCollapsed/>
+                <HeaderExpanded />
+                <Hero/>
+                <WhatWeDo/>
+                <FlowChart/>
+            </div>
         </div>
     )
 }

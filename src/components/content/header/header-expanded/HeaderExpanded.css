@@ -1,0 +1,7 @@
+.header-expanded {
+    position: sticky;
+    width: 100%;
+    height: 20rem;
+    background-color: var(--primary-color);
+    display: none;
+}
