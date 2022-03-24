@@ -2,6 +2,10 @@
     margin: auto;
 }
 
+:root {
+    --primary-color: #1c7038;
+}
+
 .content {
     display: flex;
     flex-direction: column;
